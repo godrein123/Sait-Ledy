@@ -99,4 +99,30 @@
     width: 98vw;
     height: 98vh;
 }
+.present_header div {
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.present_header div h1 {
+    color: #ffffff;
+    font-size: 267px;
+    font-weight: 700;
+}
 
+.block-description div div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.block-description div h2 {
+    justify-content: center;
+    display: flex;
+}    
+
+.block_line {
+    width: 96%;
+}
