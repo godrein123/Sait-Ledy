@@ -121,8 +121,35 @@
 .block-description div h2 {
     justify-content: center;
     display: flex;
-}    
+}  
+.block-description-space {
+    height: 20px;
+}  
 
+.h2_title::before {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 216px;
+    width: 350%;
+    height: 2%;
+    background: #C59D5F;
+}
+.h2_title {
+    font-size: 70px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 70px;
+    position: relative;
+    
+}
+.text_desciption {
+    padding-top: 90px;
+}
+.text_desciption p {
+    padding: 30px;
+}
 .block_line {
-    width: 96%;
+    width: 40%;
 }
