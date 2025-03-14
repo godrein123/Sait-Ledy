@@ -148,8 +148,33 @@
     padding-top: 90px;
 }
 .text_desciption p {
-    padding: 30px;
+    padding: 30px 40px;
+}
+.description_space {
+    padding: 1% 15%;
 }
 .block_line {
     width: 40%;
 }
+.prace_block{
+    background-color: black;
+    height: 750px;
+}
+.Prace_Title {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.prace_subTitle {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.Prace_Title h2 {
+    color: #fff;
+}
+.prace_subTitle p {
+    color: #fff;
+}
+
