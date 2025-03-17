@@ -17,6 +17,12 @@
    
    
 }
+.nav_bar_fixtTop {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
 .space_void {
     width: 5%;
 }
@@ -79,6 +85,7 @@
     align-items: center;
     display: flex;
     height: 100%;
+    padding-right: 10px;
 }
 
 .button_on_zapis a {
