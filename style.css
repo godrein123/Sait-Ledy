@@ -7,6 +7,7 @@
     background-image: url(https://adresnie-tablichki.ru/upload/category/bannery/barbershop/barbers_pol.jpg);
     background-size: cover;
     background-repeat:no-repeat;
+    margin-top: -10px;
 }
 .header_nav {
    display: flex;
@@ -16,13 +17,16 @@
    
    
    
+   
 }
 .nav_bar_fixtTop {
     top: 0;
     z-index: 100;
     position: fixed;
     width: 100%;
+    background-color: black;
 }
+
 .space_void {
     width: 5%;
 }
