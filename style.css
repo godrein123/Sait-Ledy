@@ -142,7 +142,7 @@
     position: absolute;
     bottom: -14px;
     left: 216px;
-    width: 350%;
+    width: 71vw;
     height: 2%;
     background: #C59D5F;
 }
@@ -198,3 +198,52 @@
     color: #fff;
 }
 
+.Prace_table {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.prace_tab_1, .prace_tab_2, .prace_tab_3 h3 {
+    color:#fff;
+    text-align: center;
+    width: 21vw;
+    
+}
+
+.prace_tab_2 {
+    color: #fff;
+    padding-left: 20px;
+    position: relative;
+
+}
+.prace_tab_3 {
+    color: #fff;
+    padding-left: 20px;
+    text-align: center;
+    position: relative;
+
+
+}
+.prace_d_1 {
+    color: #f5f2f2;
+    position: relative;
+}
+.prace_d_1 p{
+    color: #f5f2f2;
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    height: 150px;
+
+}
+
+ details:first-of-type summary::marker,
+  :is(::-webkit-details-marker) {
+    content: "+ ";
+    font-family: monospace;
+    color: rgb(253, 251, 251);
+    font-weight: bold;
+  }
+  details[open]:first-of-type summary::marker {
+    content: "- ";
+  }
