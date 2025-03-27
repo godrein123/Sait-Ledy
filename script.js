@@ -7,9 +7,10 @@ const stickyPoint = stickyDiv.offsetHeight; // Точка, при достиже
 window.addEventListener('scroll', () => {
   if (window.pageYOffset > stickyPoint) {
     stickyDiv.classList.add('nav_bar_fixtTop'); // Фиксируем элемент, когда прокрутили до нужной точки
-    chaild.classList.remove('conteaner');
+    chaild.style.margin = "0px";
   } else {
     stickyDiv.classList.remove('nav_bar_fixtTop'); // Освобождаем его, если скролл находится выше этой точки
-    chaild.classList.add('conteaner');
+    chaild.style.marginRight = "20px";
+    chaild.style.marginLeft = "20px";
   }
 }); 
