@@ -1,4 +1,5 @@
 
+html { scroll-behavior: smooth; }
 .conteaner {
     margin: 0px 20px;
     transition: all 0.15s;
@@ -253,4 +254,25 @@
   details[open].prace_d_1 div,.prace_d_2 p,.prace_d_3 p {
     transition: 1s;
   }
+
+  .FeedbackSpace {
+    height: 45vh;
+  }
+  .h2_Feedback {
+    position: relative;
+    margin-top: 10%;
+    color: #2A2C2D;
+    font-family: "bbb", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+  }
+  .h2_Feedback::before {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 216px;
+    width: 71vw;
+    height: 2%;
+    background: #C59D5F;
+}
   
