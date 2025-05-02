@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -21,16 +21,16 @@
 
 <body>
 
-    <div class= "header">
-        <div class= "conteaner">
+    <section class= "header" id= "HeadId">
+        <div class= "conteaner" id= "contChaild">
            <div class= "header_nav">
                 <div class= "space_void"></div>
                 <div>
-                    <ul class="header_nav_list">
-                        <li class= "G_L"> <a href="#" >Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Услуги и цены</a></li>
-                        <li><a href="#">Отзывы</a></li>
+                    <ul class="header_nav_list" id= "nav_bar">
+                        <li class= "G_L"> <a href="#HeadId" >Главная</a></li>
+                        <li><a href="#Onas">О нас</a></li>
+                        <li><a href="#serviceAndprice">Услуги и цены</a></li>
+                        <li><a href="#Feedback">Отзывы</a></li>
                         <li><a href="#">Команда</a></li>
                         <li><a href="#">Акции</a></li>
                         <li><a href="#">СМИ о нас</a></li>
@@ -42,16 +42,102 @@
                     </div>
            </div>
         </div>
-        <div class= "present_header">
+        <div class= "present_header" class= "ledy_space">
             <div>
-
+                <h1>Ledy</h1>
             </div>
 
         </div>
            
 
            
-    </div>
+    </section>
+    <section class= "block-description">
+        <div class= "conteaner">
+          <div class= "block-description-space"></div> 
+            <div calss= "block_h2">
+                 <h2 class= "h2_title" id= "Onas">О нас</h2>
+                 <div class= "block_line"></div>
+            </div>
+           <div class= "description_space">  
+            <div class= "text_desciption">
+                <p class= "description_subtitle"><b>БАРБЕРШОП БАРБАРЕЛЛА - МЕСТО С УЮТНОЙ И ДОБРОЖЕЛАТЕЛЬНОЙ 
+                    АТМОСФЕРОЙ, ГДЕ К ВАМ ОТНЕСУТСЯ С ЗАБОТОЙ И ВНИМАНИЕМ</b></p>
+                    <p class= "space_p"></p>
+
+                <p class= "description_subtitle">Все наши барберы — девушки, которые мастерски владеют 
+                    искусством классической мужской стрижки,
+                    моделирования бород и усов и 
+                    традиционного опасного бритья</p>
+                    <p class= "space_p"></p>
+
+                <p class= "description_subtitle">Помимо высоких профессиональных стандартов, мы добавляем 
+                    к нашей работе женский взгляд, ведь только женщины знают, 
+                    что делает мужчину по-настоящему привлекательным.</p>
+            </div>
+        </div> 
+        </div>
+    </section>
+    <section class= "prace_block">
+       <div class="conteaner">
+            <div class= "Prace_space">
+                <div class= "Prace_Title">
+                    <h2 id= "serviceAndprice">Услуги и цены</h2>
+                </div>
+                <div class= "prace_subTitle">
+                    <p>Выбрав мастера любой категории, вы можете быть уверены в высоком уровне профессионализма и качестве сервиса</p>
+                </div>
+                <div class= "Prace_table">
+                    <div class= "prace_tab_1">
+                        <h3>ТОП <br>БАРБЕР</br></h3>
+                        <hr>
+                        <details class= "prace_d_1">
+                            <summary>Мужская стижка</summary>
+                            <div>Стрижка выполняется с помощью ножниц 
+                                и различных машинок. Услуга включает 
+                                в себя мытье головы до и после стрижки,
+                                 укладку с применением профессиональных 
+                                 стайлинговых средств.</div>
+                          </details>
+                    </div>
+                    <div class= "prace_tab_2">
+                        <h3>СТАШИЙ <br>БАРБЕР</br></h3>
+                        <hr>
+                        <details class= "prace_d_2">
+                            <summary>Мужская стижка</summary>
+                            <p >Стрижка выполняется с помощью ножниц 
+                                и различных машинок. Услуга включает 
+                                в себя мытье головы до и после стрижки,
+                                 укладку с применением профессиональных 
+                                 стайлинговых средств.</p>
+                          </details>
+                    </div>
+                    <div class= "prace_tab_3">
+                        <h3>БАРБЕР</h3>
+                        <hr>
+                        <details class= "prace_d_3">
+                            <summary>Мужская стижка</summary>
+                            <p >Стрижка выполняется с помощью ножниц 
+                                и различных машинок. Услуга включает 
+                                в себя мытье головы до и после стрижки,
+                                 укладку с применением профессиональных 
+                                 стайлинговых средств.</p>
+                          </details>
+                    </div>
+                </div>
+            </div>
+      </div> 
+
+    </section>
+    <section>
+        <div class= "conteaner">
+            <h2 class= "h2_Feedback" id= "Feedback">Отзывы</h2>
+            <div class= "FeedbackSpace">
+
+            </div>
+        </div>
+    </section>
+
 
     <script type="module" src="./script.js"></script>
 </body>
